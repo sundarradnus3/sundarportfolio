@@ -1,0 +1,118 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+}
+
+/* Header Section */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #222;
+    padding: 15px 20px;
+    color: white;
+}
+
+.logo img {
+    width: 50px;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-links li {
+    display: inline;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.contact i {
+    font-size: 20px;
+    color: white;
+}
+
+/* Home Section */
+.home {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 50px;
+    background: #fff;
+}
+
+.home-content {
+    max-width: 600px;
+}
+
+.home-img img {
+    width: 300px;
+    border-radius: 10px;
+}
+
+.social-icons a {
+    text-decoration: none;
+    font-size: 25px;
+    margin-right: 10px;
+    color: #222;
+}
+
+/* Video Portfolio Section */
+.portfolio {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.portfolio h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.video-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* 2 columns */
+    gap: 20px;
+    max-width: 800px;
+    margin: auto;
+}
+
+.video-box video {
+    width: 100%;
+    border-radius: 8px;
+}
+/* Feedback Box */
+.feedback-box {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background: white;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    display: none;
+}
+
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+}
+
+button {
+    background: #007bff;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
